@@ -1,0 +1,25 @@
+.problems-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.problem-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.problem-difficulty {
+    flex: 3;
+    text-align: right;
+}
+
+.problem-title {
+    flex: 1;
+   
+}

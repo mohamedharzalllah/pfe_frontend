@@ -1,0 +1,25 @@
+.hnavbar {
+    background-color: rgb(14, 179, 14);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: rgb(12, 12, 12);
+    text-decoration: underline;
+  }
+  
+  .nav-input {
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+  }
